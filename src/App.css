@@ -1,0 +1,55 @@
+* {
+  font-family: 'Amatic SC', cursive;
+}
+
+
+html {
+  font-size: 62.5%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-title {
+  font-size: 6rem;
+  letter-spacing: 2rem;
+  background-color: peachpuff;
+  padding: 1rem;
+  margin-bottom: 0;
+}
+
+.prompt {
+  font-size: 4rem;
+  letter-spacing: .5rem;
+  margin: 1rem;
+}
+
+.shoe-img {
+  height: 40rem;
+  width: 40rem;
+}
+
+.shoe-container {
+  border: .3rem solid pink;
+  border-radius: 1rem;
+  width: 42rem;
+  margin: 3rem;
+}
+
+.shoe-container:hover {
+  transform: translateY(-.3rem);
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+  border-color: plum;
+}
+
+.shoe-container:active {
+  transform: translateY(-.1rem);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
